@@ -1,0 +1,40 @@
+[ 1/30] trial  1  val RMSE  17.77 (19 ep, 47s)  window=20 n_filters=16 kernel_size=7 n_layers=2 dropout=0.2 fc_units=32 pooling=flatten lr=0.003 batch_size=256
+[ 2/30] trial  0  val RMSE  19.22 (13 ep, 96s)  window=30 n_filters=32 kernel_size=5 n_layers=3 dropout=0.2 fc_units=64 pooling=flatten lr=0.001 batch_size=128
+[ 3/30] trial  3  val RMSE  17.64 (21 ep, 121s)  window=20 n_filters=32 kernel_size=9 n_layers=2 dropout=0.5 fc_units=128 pooling=gap lr=0.0003 batch_size=64
+[ 4/30] trial  2  val RMSE  19.71 (14 ep, 182s)  window=20 n_filters=128 kernel_size=3 n_layers=2 dropout=0.1 fc_units=32 pooling=flatten lr=0.003 batch_size=256
+[ 5/30] trial  6  val RMSE  14.75 (10 ep, 98s)  window=50 n_filters=16 kernel_size=7 n_layers=4 dropout=0.3 fc_units=128 pooling=flatten lr=0.003 batch_size=64
+[ 6/30] trial  4  val RMSE  17.28 (19 ep, 290s)  window=50 n_filters=64 kernel_size=7 n_layers=2 dropout=0.2 fc_units=64 pooling=flatten lr=0.0003 batch_size=128
+[ 7/30] trial  7  val RMSE  17.80 (24 ep, 119s)  window=20 n_filters=32 kernel_size=7 n_layers=2 dropout=0.2 fc_units=32 pooling=gap lr=0.001 batch_size=128
+[ 8/30] trial  5  val RMSE  17.68 (12 ep, 231s)  window=20 n_filters=64 kernel_size=7 n_layers=4 dropout=0.3 fc_units=32 pooling=gap lr=0.003 batch_size=64
+[ 9/30] trial  9  val RMSE  19.76 (19 ep, 83s)  window=20 n_filters=32 kernel_size=5 n_layers=2 dropout=0.5 fc_units=64 pooling=gap lr=0.003 batch_size=256
+[10/30] trial  8  val RMSE  15.72 (14 ep, 114s)  window=40 n_filters=32 kernel_size=7 n_layers=3 dropout=0.2 fc_units=128 pooling=gap lr=0.003 batch_size=256
+[11/30] trial 10  val RMSE  20.77 (16 ep, 191s)  window=30 n_filters=64 kernel_size=3 n_layers=2 dropout=0.1 fc_units=64 pooling=gap lr=0.001 batch_size=64
+[12/30] trial 12  val RMSE  16.99 (12 ep, 170s)  window=30 n_filters=32 kernel_size=7 n_layers=4 dropout=0.5 fc_units=128 pooling=gap lr=0.001 batch_size=64
+[13/30] trial 11  val RMSE  19.55 (21 ep, 310s)  window=30 n_filters=64 kernel_size=5 n_layers=4 dropout=0.5 fc_units=64 pooling=gap lr=0.0003 batch_size=128
+[14/30] trial 13  val RMSE  18.57 (20 ep, 250s)  window=30 n_filters=128 kernel_size=3 n_layers=2 dropout=0.1 fc_units=32 pooling=flatten lr=0.003 batch_size=128
+[15/30] trial 15  val RMSE  18.54 (11 ep, 70s)  window=20 n_filters=64 kernel_size=7 n_layers=2 dropout=0.3 fc_units=64 pooling=flatten lr=0.001 batch_size=64
+[16/30] trial 17  val RMSE  17.16 (14 ep, 71s)  window=30 n_filters=16 kernel_size=7 n_layers=3 dropout=0.1 fc_units=32 pooling=gap lr=0.001 batch_size=64
+[17/30] trial 16  val RMSE  22.52 (16 ep, 120s)  window=40 n_filters=32 kernel_size=3 n_layers=4 dropout=0.3 fc_units=128 pooling=flatten lr=0.0003 batch_size=128
+[18/30] trial 18  val RMSE  22.88 (15 ep, 56s)  window=20 n_filters=32 kernel_size=3 n_layers=2 dropout=0.5 fc_units=32 pooling=flatten lr=0.0003 batch_size=256
+[19/30] trial 19  val RMSE  17.17 (15 ep, 107s)  window=50 n_filters=32 kernel_size=7 n_layers=4 dropout=0.5 fc_units=32 pooling=flatten lr=0.003 batch_size=128
+[20/30] trial 21  val RMSE  19.08 (17 ep, 41s)  window=40 n_filters=16 kernel_size=5 n_layers=4 dropout=0.2 fc_units=32 pooling=flatten lr=0.003 batch_size=256
+[21/30] trial 14  val RMSE  16.88 (15 ep, 469s)  window=20 n_filters=128 kernel_size=9 n_layers=4 dropout=0.5 fc_units=128 pooling=gap lr=0.003 batch_size=64
+[22/30] trial 22  val RMSE  20.47 (15 ep, 30s)  window=20 n_filters=32 kernel_size=3 n_layers=2 dropout=0.3 fc_units=32 pooling=flatten lr=0.001 batch_size=256
+[23/30] trial 24  val RMSE  19.57 (14 ep, 44s)  window=20 n_filters=16 kernel_size=9 n_layers=3 dropout=0.5 fc_units=64 pooling=gap lr=0.003 batch_size=64
+[24/30] trial 20  val RMSE  15.61 (12 ep, 220s)  window=50 n_filters=64 kernel_size=9 n_layers=4 dropout=0.5 fc_units=32 pooling=flatten lr=0.0003 batch_size=64
+[25/30] trial 23  val RMSE  21.09 (16 ep, 97s)  window=50 n_filters=32 kernel_size=5 n_layers=4 dropout=0.5 fc_units=32 pooling=gap lr=0.001 batch_size=64
+[26/30] trial 25  val RMSE  17.43 (15 ep, 56s)  window=20 n_filters=16 kernel_size=9 n_layers=4 dropout=0.3 fc_units=32 pooling=flatten lr=0.0003 batch_size=64
+[27/30] trial 27  val RMSE  20.97 (23 ep, 63s)  window=20 n_filters=16 kernel_size=3 n_layers=2 dropout=0.2 fc_units=32 pooling=gap lr=0.001 batch_size=128
+[28/30] trial 26  val RMSE  16.39 (18 ep, 112s)  window=50 n_filters=32 kernel_size=9 n_layers=2 dropout=0.3 fc_units=64 pooling=flatten lr=0.0003 batch_size=128
+[29/30] trial 28  val RMSE  23.38 (11 ep, 167s)  window=30 n_filters=128 kernel_size=3 n_layers=2 dropout=0.5 fc_units=32 pooling=gap lr=0.001 batch_size=128
+[30/30] trial 29  val RMSE  16.76 (19 ep, 435s)  window=40 n_filters=128 kernel_size=9 n_layers=2 dropout=0.2 fc_units=64 pooling=flatten lr=0.0003 batch_size=256
+
+Top 5 configurations:
+ trial  window  n_filters  kernel_size  n_layers  dropout  fc_units pooling     lr  batch_size  best_val_rmse  params
+     6      50         16            7         4      0.3       128 flatten 0.0030          64      14.754344  109793
+    20      50         64            9         4      0.5        32 flatten 0.0003          64      15.611755  221889
+     8      40         32            7         3      0.2       128     gap 0.0030         256      15.722350   22113
+    26      50         32            9         2      0.3        64 flatten 0.0003         128      16.390427  115969
+    29      40        128            9         2      0.2        64 flatten 0.0003         256      16.756063  492161
+
+Best config saved to results\FD001\best_config.json

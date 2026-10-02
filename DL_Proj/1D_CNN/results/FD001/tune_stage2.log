@@ -1,0 +1,40 @@
+[ 1/20] trial  0  val RMSE  14.75 (12 ep, 92s)  window=50 n_filters=16 kernel_size=7 n_layers=4 dropout=0.3 fc_units=128 pooling=flatten lr=0.003 batch_size=64 weight_decay=0.0 noise_std=0.0
+[ 2/20] trial  1  val RMSE  14.90 (14 ep, 110s)  window=40 n_filters=32 kernel_size=9 n_layers=3 dropout=0.5 fc_units=64 pooling=flatten lr=0.003 batch_size=128 weight_decay=0.001 noise_std=0.0
+[ 3/20] trial  3  val RMSE  15.36 (16 ep, 77s)  window=40 n_filters=16 kernel_size=9 n_layers=4 dropout=0.3 fc_units=64 pooling=gap lr=0.001 batch_size=128 weight_decay=0.0 noise_std=0.0
+[ 4/20] trial  2  val RMSE  17.79 (13 ep, 171s)  window=50 n_filters=32 kernel_size=9 n_layers=4 dropout=0.5 fc_units=32 pooling=flatten lr=0.001 batch_size=64 weight_decay=0.0001 noise_std=0.0
+[ 5/20] trial  4  val RMSE  19.01 (16 ep, 95s)  window=40 n_filters=16 kernel_size=5 n_layers=3 dropout=0.5 fc_units=64 pooling=flatten lr=0.001 batch_size=64 weight_decay=0.0 noise_std=0.1
+[ 6/20] trial  6  val RMSE  15.64 (17 ep, 84s)  window=50 n_filters=16 kernel_size=9 n_layers=3 dropout=0.3 fc_units=64 pooling=gap lr=0.003 batch_size=128 weight_decay=0.0 noise_std=0.05
+[ 7/20] trial  7  val RMSE  15.14 (13 ep, 101s)  window=50 n_filters=16 kernel_size=7 n_layers=3 dropout=0.3 fc_units=128 pooling=flatten lr=0.003 batch_size=64 weight_decay=0.001 noise_std=0.1
+[ 8/20] trial  5  val RMSE  14.65 (12 ep, 171s)  window=50 n_filters=32 kernel_size=7 n_layers=4 dropout=0.3 fc_units=32 pooling=flatten lr=0.003 batch_size=64 weight_decay=0.001 noise_std=0.05
+[ 9/20] trial  9  val RMSE  18.35 (12 ep, 79s)  window=50 n_filters=16 kernel_size=9 n_layers=4 dropout=0.5 fc_units=128 pooling=gap lr=0.003 batch_size=128 weight_decay=0.0 noise_std=0.1
+[10/20] trial  8  val RMSE  15.77 (12 ep, 144s)  window=50 n_filters=32 kernel_size=9 n_layers=3 dropout=0.3 fc_units=32 pooling=flatten lr=0.001 batch_size=64 weight_decay=0.001 noise_std=0.0
+[11/20] trial 10  val RMSE  18.01 (15 ep, 72s)  window=40 n_filters=16 kernel_size=9 n_layers=3 dropout=0.5 fc_units=32 pooling=gap lr=0.003 batch_size=128 weight_decay=0.0001 noise_std=0.05
+[12/20] trial 11  val RMSE  19.72 (22 ep, 129s)  window=50 n_filters=16 kernel_size=5 n_layers=3 dropout=0.3 fc_units=128 pooling=flatten lr=0.001 batch_size=128 weight_decay=0.0 noise_std=0.05
+[13/20] trial 12  val RMSE  16.84 (19 ep, 138s)  window=40 n_filters=16 kernel_size=7 n_layers=4 dropout=0.3 fc_units=32 pooling=gap lr=0.001 batch_size=64 weight_decay=0.0 noise_std=0.0
+[14/20] trial 13  val RMSE  16.64 (16 ep, 142s)  window=40 n_filters=32 kernel_size=7 n_layers=3 dropout=0.3 fc_units=64 pooling=gap lr=0.001 batch_size=64 weight_decay=0.0 noise_std=0.0
+[15/20] trial 14  val RMSE  14.63 (13 ep, 97s)  window=40 n_filters=16 kernel_size=9 n_layers=4 dropout=0.3 fc_units=64 pooling=gap lr=0.001 batch_size=64 weight_decay=0.0 noise_std=0.05
+[16/20] trial 15  val RMSE  17.87 (12 ep, 148s)  window=40 n_filters=32 kernel_size=7 n_layers=4 dropout=0.3 fc_units=128 pooling=flatten lr=0.001 batch_size=64 weight_decay=0.0 noise_std=0.0
+[17/20] trial 16  val RMSE  17.26 (21 ep, 174s)  window=40 n_filters=32 kernel_size=7 n_layers=4 dropout=0.3 fc_units=64 pooling=gap lr=0.001 batch_size=128 weight_decay=0.0 noise_std=0.0
+[18/20] trial 17  val RMSE  16.23 (23 ep, 165s)  window=40 n_filters=32 kernel_size=9 n_layers=3 dropout=0.5 fc_units=128 pooling=gap lr=0.003 batch_size=128 weight_decay=0.0001 noise_std=0.05
+[19/20] trial 19  val RMSE  18.59 (13 ep, 57s)  window=40 n_filters=16 kernel_size=5 n_layers=3 dropout=0.3 fc_units=64 pooling=flatten lr=0.003 batch_size=128 weight_decay=0.0001 noise_std=0.05
+[20/20] trial 18  val RMSE  14.82 (16 ep, 5167s)  window=50 n_filters=32 kernel_size=9 n_layers=4 dropout=0.3 fc_units=32 pooling=flatten lr=0.001 batch_size=64 weight_decay=0.001 noise_std=0.1
+
+Top 5 configurations:
+ trial  window  n_filters  kernel_size  n_layers  dropout  fc_units pooling    lr  batch_size  weight_decay  noise_std  best_val_rmse  params
+    14      40         16            9         4      0.3        64     gap 0.001          64         0.000       0.05      14.628654   10273
+     5      50         32            7         4      0.3        32 flatten 0.003          64         0.001       0.05      14.647296   76289
+     0      50         16            7         4      0.3       128 flatten 0.003          64         0.000       0.00      14.754344  109793
+    18      50         32            9         4      0.3        32 flatten 0.001          64         0.001       0.10      14.822638   83329
+     1      40         32            9         3      0.5        64 flatten 0.003         128         0.001       0.00      14.895169  104801
+Traceback (most recent call last):
+  File "E:\DL_proj\tune.py", line 135, in <module>
+    main()
+    ~~~~^^
+  File "E:\DL_proj\tune.py", line 127, in main
+    best = {k: (DEFAULTS[k] if pd.isna(top.get(k, float("nan"))) else top[k]) for k in DEFAULTS}
+                               ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shankar Bandal L\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 1577, in __nonzero__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().

@@ -1,0 +1,12 @@
+{
+  "window": 50,
+  "n_filters": 16,
+  "kernel_size": 7,
+  "n_layers": 4,
+  "dropout": 0.3,
+  "fc_units": 128,
+  "pooling": "flatten",
+  "lr": 0.003,
+  "batch_size": 64,
+  "weight_decay": 0.0
+}
