@@ -1,0 +1,24 @@
+  E0  baseline               val RMSE  13.88  (36 ep, 175s, 22,593 params)
+  E1  window = 40            val RMSE  12.80  (34 ep, 192s, 22,593 params)
+  E2  window = 50            val RMSE  12.96  (25 ep, 167s, 22,593 params)
+  E3  hidden_size = 32       val RMSE  14.25  (30 ep, 62s, 7,233 params)
+  E4  hidden_size = 128      val RMSE  13.36  (28 ep, 223s, 77,889 params)
+  E5  n_layers = 2           val RMSE  14.57  (24 ep, 196s, 55,873 params)
+  E6  dropout = 0.4          val RMSE  13.70  (47 ep, 169s, 22,593 params)
+  E7  lr = 0.003             val RMSE  13.32  (30 ep, 85s, 22,593 params)
+  E8  batch_size = 64        val RMSE  13.57  (24 ep, 75s, 22,593 params)
+  E9  combined: window=40, hidden_size=128, dropout=0.4, lr=0.003, batch_size=64 val RMSE  12.54  (22 ep, 115s, 77,889 params)
+
+experiment                                                                    changed  best_val_rmse  epochs  params
+        E0                                                                   baseline      13.884220      36   22593
+        E1                                                                window = 40      12.800201      34   22593
+        E2                                                                window = 50      12.964098      25   22593
+        E3                                                           hidden_size = 32      14.251745      30    7233
+        E4                                                          hidden_size = 128      13.363866      28   77889
+        E5                                                               n_layers = 2      14.566362      24   55873
+        E6                                                              dropout = 0.4      13.695269      47   22593
+        E7                                                                 lr = 0.003      13.315001      30   22593
+        E8                                                            batch_size = 64      13.572035      24   22593
+        E9 combined: window=40, hidden_size=128, dropout=0.4, lr=0.003, batch_size=64      12.543090      22   77889
+
+Best: E9 (combined: window=40, hidden_size=128, dropout=0.4, lr=0.003, batch_size=64), val RMSE 12.54

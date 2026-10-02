@@ -1,0 +1,10 @@
+Config: {"window": 40, "hidden_size": 128, "n_layers": 1, "dropout": 0.4, "fc_units": 32, "lr": 0.003, "batch_size": 64}
+
+=== FD001 ===
+  FD001 seed 0: test RMSE 14.07  MAE 10.10  score 339  (val 12.54, 27 ep)
+  FD001 seed 1: test RMSE 12.65  MAE 9.31  score 260  (val 12.52, 23 ep)
+  FD001 seed 2: test RMSE 14.58  MAE 9.91  score 593  (val 12.67, 26 ep)
+
+| Subset | Test RMSE | Test MAE | NASA score | Params |
+|---|---|---|---|---|
+| FD001 | 13.77 ± 0.82 | 9.77 ± 0.34 | 397 ± 142 | 77,889 |
